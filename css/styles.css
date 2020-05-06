@@ -1,5 +1,5 @@
 .bg-Sarah {
-    background-image: src("../image_assets/IMG-0076.JPG");
+    background-image: url("/image_assets/IMG-0076.JPG");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
