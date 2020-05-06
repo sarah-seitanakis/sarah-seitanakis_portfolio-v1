@@ -1,5 +1,5 @@
-.bg-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), src("../image_assets/IMG-0076.JPG");
+.bg-Sarah {
+    background-image: src("../image_assets/IMG-0076.JPG");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
