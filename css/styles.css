@@ -9,6 +9,9 @@
 /*======================================
 //--//-->   general
 ======================================*/
+.breathe {
+    padding: 2rem;
+}
 .bg-image {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -25,6 +28,25 @@
     display: table;
 }
 
+.line-mf {
+    width: 50px;
+    height: 2px;
+    background-color: #4e4e4e;
+    margin: 0 auto;
+  }
+  .box-shadow,
+  .paralax-mf,
+  .service-box,
+  .work-box,
+  .card-blog {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box-shadow-a,
+  .button:hover {
+    box-shadow: 0 0 0 4px #cde1f8;
+  }
+  
 /*======================================
 //--//-->   INTRO
 ======================================*/
@@ -64,34 +86,61 @@
   
 .intro .text-slider-items {
     display: none;
- }
-  
-.intro-single {
-    height: 350px;
+}
+
+
+/*======================================
+//--//-->   PORTFOLIO
+======================================*/
+
+.work-box {
+    margin-bottom: 3rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
 }
   
-.intro-single .intro-content {
-    margin-top: 30px;
+.work-box:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
   
-.intro-single .intro-title {
-    text-transform: uppercase;
-    font-size: 3rem;
+.work-img {
+    display: block;
+    overflow: hidden;
 }
   
-.intro-single .breadcrumb {
-    background-color: transparent;
+.work-img img {
+    transition: all 1s;
+}
+  
+.work-content {
+    padding: 2rem 3% 1rem 4%;
+}
+  
+.work-content .w-more {
+    color: #4e4e4e;
+    font-size: .8rem;
+}
+  
+.work-content .w-more .w-ctegory {
     color: #0078ff;
 }
   
-.intro-single .breadcrumb .breadcrumb-item:before {
-    color: #cde1f8;
+.work-content .w-like {
+    font-size: 2.5rem;
+    color: #0078ff;
+    float: right;
 }
   
-.intro-single .breadcrumb .breadcrumb-item.active {
-    color: #cde1f8;
+.work-content .w-like a {
+    color: #0078ff;
 }
   
-.intro-single .breadcrumb a {
-    color: #fff;
+.work-content .w-like .num-like {
+    font-size: .7rem;
+}
+  
+.w-title {
+    font-size: 1.2rem;
 }
