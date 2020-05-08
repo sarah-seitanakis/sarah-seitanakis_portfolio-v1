@@ -49,22 +49,26 @@ body{
     height: 2px;
     background-color: #4e4e4e;
     margin: 0 auto;
-  }
-  .box-shadow,
-  .paralax-mf,
-  .service-box,
-  .work-box,
-  .card-blog {
+}
+.box-shadow,
+.paralax-mf,
+.service-box,
+.work-box,
+.card-blog {
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  .box-shadow-a,
-  .button:hover {
+.box-shadow-a,
+.button:hover {
     box-shadow: 0 0 0 4px #cde1f8;
-  }
-  .bg-norepeat{
-      background-repeat: no-repeat;
-  }
+}
+.bg-norepeat{
+    background-repeat: no-repeat;
+}
+.mySlides{
+    display: none;
+}
+
 /*======================================
 //--//-->   INTRO
 ======================================*/
@@ -126,6 +130,8 @@ body{
 .work-img {
     display: block;
     overflow: hidden;
+    max-height: 300px;
+    min-height: 200px;
 }
   
 .work-img img {
