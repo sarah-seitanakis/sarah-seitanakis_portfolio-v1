@@ -24,6 +24,10 @@ body{
     color: #4e4e4e;
     font-weight: 300;
 }
+.content{
+    font-size: 1rem;
+    font-weight: 300;
+}
 .bg-image {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -58,7 +62,9 @@ body{
   .button:hover {
     box-shadow: 0 0 0 4px #cde1f8;
   }
-  
+  .bg-norepeat{
+      background-repeat: no-repeat;
+  }
 /*======================================
 //--//-->   INTRO
 ======================================*/
@@ -136,7 +142,10 @@ body{
 }
   
 .work-content .w-more .w-ctegory {
-    color: #0078ff;
+    color: #4e4e4e;
+}
+.w-subital{
+    font-style: italic;
 }
   
 .work-content .w-like {
