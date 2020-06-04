@@ -68,6 +68,23 @@ body{
 .mySlides{
     display: none;
 }
+/*======================================
+//--//-->   landing screen shananigans
+======================================*/
+.hooligan {
+    background-image: url(img/landingscreen_img/Hero_image_wide.jpg);
+  }
+  @media (min-width: 800px) {
+    .hooligan {
+      background-image: url(large.jpg);
+    }
+  }
+  @media (min-width: 1000px) {
+    .hooligan {
+      background-image: url(extralarge.jpg);
+    }
+  }
+
 
 /*======================================
 //--//-->   INTRO
